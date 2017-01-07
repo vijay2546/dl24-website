@@ -1,0 +1,32 @@
+{
+  "name": "dl24-website",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [
+    "productivity",
+    "HTML5",
+    "scalpel"
+  ],
+  "website": "https://dl24-website.com/",
+  "repository": "https://github.com/vijay2546/dl24-website",
+  "logo": "https://small-sharp-tool.com/logo.svg",
+  "success_url": "/welcome",
+  "scripts": {
+    "postdeploy": "bundle exec rake bootstrap"
+  },
+  "env": {
+
+  },
+  "formation": {
+    "web": {
+      "quantity": 2,
+      "size": "Performance-M"
+    }
+  },
+  "image": "",
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
